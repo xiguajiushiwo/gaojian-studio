@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "来信发布台 · 小红书助手",
+  "version": "0.4.0",
+  "description": "把本地发布台里的图片和文案填入你当前的小红书创作页面。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://creator.xiaohongshu.com/*",
+    "http://127.0.0.1:4188/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "连接来信发布台",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

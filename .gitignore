@@ -1,0 +1,17 @@
+node_modules/
+data/
+work/
+*.log
+.env*
+test-results/
+playwright-report/
+coverage/
+*.zip
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini

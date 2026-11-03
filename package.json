@@ -1,0 +1,24 @@
+{
+  "name": "rednote-publisher",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "稿间：本地图文预览与小红书自动填写工作台，最终由用户手动发布",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiguajiushiwo/gaojian-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiguajiushiwo/gaojian-studio/issues"
+  }
+}
